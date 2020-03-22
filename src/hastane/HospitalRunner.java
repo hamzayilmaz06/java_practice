@@ -5,6 +5,7 @@ public class HospitalRunner {
 	private static Hospital hpt1 = new Hospital();
 
 	public static void main(String[] args) {
+		System.out.println("I added ekstra title to see branch !");
 		String patientCase = "Corona", title = doctorTitle(patientCase);
 
 		hpt1.setDoctor(findDoctor(title));
